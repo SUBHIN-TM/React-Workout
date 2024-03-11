@@ -4,3 +4,13 @@
 .pic{
     width: 100px;
 }
+
+.countDiv{
+    display: flex;
+    padding: 10px;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+}

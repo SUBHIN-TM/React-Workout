@@ -1,4 +1,4 @@
-const Heading=()=>{
+const TryOut=()=>{
     return(
         <div>
            <h1>Hello</h1>
@@ -7,4 +7,4 @@ const Heading=()=>{
     )
 }
 
-export default Heading;
+export default TryOut;

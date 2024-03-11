@@ -1,23 +1,12 @@
 import React, { useEffect, useState } from "react";
 import ReactDom from "react-dom/client"
-import Heading from "./components/Heading";
+import TryOut from "./components/TryOut";
 import Shoezilla from "./components/Shoezilla";
-
-const NodeFetch=()=>{
-    const [data,setData]=useState("")
-    useEffect(()=>{
-        fetch("http://localhost:3000/")
-        .then((response)=> response.text())
-        .then((res)=> setData(res))
-    },[]);
-
-    return(
-        <h1>{data}</h1>
-    )
-}
+import Counter from "./components/Reducer";
+import NormalCount from "./components/NormalCount";
 
 
 
 
 const root=ReactDom.createRoot(document.getElementById("root"));
-root.render(<Shoezilla/>)
+root.render(<NormalCount/>)
